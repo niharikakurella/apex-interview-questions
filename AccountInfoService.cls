@@ -1,4 +1,4 @@
-## Write an Apex class that implements a REST web service to retrieve information about a specific Account by its Id.
+# Write an Apex class that implements a REST web service to retrieve information about a specific Account by its Id.
 
 @RestResource(urlMapping='/accountInfo/*')
 global with sharing class AccountInfoService {
