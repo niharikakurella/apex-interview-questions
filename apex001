@@ -1,0 +1,19 @@
+## Write an Apex trigger that updates a custom field on the Account object when a related Contact is updated.
+
+trigger UpdateAccountField on Contact (after update) {
+    Set<Id> accountIds = new Set<Id>();
+    
+    for (Contact con : Trigger.new) {
+        if (con.AccountId != null) {
+            accountIds.add(con.AccountId);
+        }
+    }
+    
+    List<Account> accountsToUpdate = [SELECT Id, CustomField__c FROM Account WHERE Id IN :accountIds];
+    
+    for (Account acc : accountsToUpdate) {
+        acc.CustomField__c = // your logic here;
+    }
+    
+    update accountsToUpdate;
+}
