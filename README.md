@@ -1,4 +1,4 @@
-# apex-interview-questions
+# Salesforce Apex
 
 Apex is a programming language specifically designed for building applications on the Salesforce platform. If you're preparing for a coding interview focused on Apex, here are some common questions that might help you.
 
@@ -6,27 +6,6 @@ Please note that the complexity of the questions can vary, so adjust your prepar
 
 ## Salesforce Apex Best Practices
 Welcome to the Salesforce Apex Best Practices repository! This guide aims to provide a comprehensive set of best practices for writing clean, efficient, and maintainable Apex code on the Salesforce platform.
-
-## Table of Contents
-- [Introduction](#Introduction)
-- [Apex Best Practices](#Apex Best Practices)
-Bulkification
-SOQL and DML Operations
-Use of Collections
-Governor Limits
-Exception Handling
-Code Comments and Documentation
-Descriptive Naming Conventions
-Separation of Concerns
-Avoid Hardcoding IDs
-Trigger Handler Pattern
-Avoid Recursive Triggers
-Test Classes and Code Coverage
-Avoid Hardcoding Values
-Use Custom Settings or Custom Metadata Types for Configurations
-Regular Code Reviews
-Contributing
-Contact
 
 ## Introduction
 Salesforce Apex is a powerful programming language tailored for building applications on the Salesforce platform. This guide aims to help developers write robust and scalable Apex code by following industry best practices.
